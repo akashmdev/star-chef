@@ -17,7 +17,7 @@ const TopBar = ({ popularDishes, loading }) => {
         <Box alignItems={'center'} display={'flex'} m={2}>
           <IconButton>
             {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img alt={'LeftArrow'} height={'12px'} src={LeftArrow} width={'12px'} />
+            <img alt={'LeftArrow'} height={'12px'} src={LeftArrow} width={'8px'} />
           </IconButton>
           <Typography
             sx={{

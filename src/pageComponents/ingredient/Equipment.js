@@ -27,8 +27,8 @@ const Equipment = ({ loading, ingredient }) => {
               }}
             >
               {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img alt={'EquipmentIMG'} height={'58px'} src={EquipmentIMG} width={'28px'} />
-              <Typography sx={{ fontSize: '10px' }}>{each.name}</Typography>
+              <img alt={'EquipmentIMG'} height={'54px'} src={EquipmentIMG} width={'28px'} />
+              <Typography sx={{ fontSize: '10px', marginTop: 0.3 }}>{each.name}</Typography>
             </Box>
           ))}
       </Box>
